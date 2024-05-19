@@ -21,7 +21,7 @@ Installation
 To get started with the Solar Radiation Predictor, follow these steps:
 
 Clone the repository:
-git clone https://github.com/yourusername/solar-radiation-predictor.git
+git clone https://github.com/heenap04/solar-radiation-predictor-
 
 Navigate to the project directory:
 cd solar-radiation-predictor
