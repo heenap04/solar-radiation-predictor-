@@ -7,7 +7,8 @@ Features
 Predicts solar radiation based on historical weather data.
 Utilizes machine learning algorithms for accurate forecasting.
 Easy-to-use interface for inputting weather parameters and getting predictions.
-Table of Contents
+
+Table of Contents:
 Installation
 Usage
 Data
@@ -15,44 +16,33 @@ Model
 Contributing
 License
 Acknowledgements
+
 Installation
 To get started with the Solar Radiation Predictor, follow these steps:
 
 Clone the repository:
-
-sh
-Copy code
 git clone https://github.com/yourusername/solar-radiation-predictor.git
+
 Navigate to the project directory:
-
-sh
-Copy code
 cd solar-radiation-predictor
-Install the required dependencies:
 
-sh
-Copy code
+Install the required dependencies:
 pip install -r requirements.txt
+
 Usage
 To use the Solar Radiation Predictor, follow these steps:
-
 Prepare your dataset with the required meteorological parameters.
 
 Train the model using the provided training script:
-
-sh
-Copy code
 python train_model.py --data_path path_to_your_dataset
-Use the trained model to make predictions:
 
-sh
-Copy code
+Use the trained model to make predictions:
 python predict.py --model_path path_to_trained_model --input_data path_to_input_data
 The predictions will be saved or displayed as specified in the predict.py script.
 
+
 Data
 The project uses historical weather data to train the machine learning models. The required parameters include:
-
 Temperature
 Humidity
 Wind Speed
@@ -61,7 +51,6 @@ Ensure your dataset is in a compatible format (e.g., CSV) and includes all neces
 
 Model
 The Solar Radiation Predictor employs various machine learning algorithms to achieve accurate predictions. These may include:
-
 Linear Regression
 Decision Trees
 Random Forests
@@ -75,19 +64,12 @@ Contributions are welcome! If you would like to contribute to the project, pleas
 Fork the repository.
 
 Create a new branch:
-
-sh
-Copy code
 git checkout -b feature/your-feature-name
+
 Make your changes and commit them:
-
-sh
-Copy code
 git commit -m "Add your commit message"
-Push to the branch:
 
-sh
-Copy code
+Push to the branch:
 git push origin feature/your-feature-name
 Create a pull request.
 
